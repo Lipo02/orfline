@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OrfLine — Orfanii x LowLine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══ SPLASH SCREEN ══ -->
+  <div id="splash">
+    <div id="splash-inner">
+      <div class="splash-emblem">⚜️</div>
+      <div class="splash-click">Click aici ca să vezi</div>
+      <div class="splash-title">OrfLine</div>
+      <div class="splash-sub">Orfanii × LowLine</div>
+    </div>
+  </div>
+
+
+
+  <!-- ══ HEADER (Logo stânga + Unchiu dreapta) ══ -->
+  <header>
+    <div class="header-left">
+      <div class="header-crest">
+        <div class="crest-line"></div>
+        <div class="crest-emblem">⚜️</div>
+        <div class="crest-line right"></div>
+      </div>
+      <h1 class="team-name">OrfLine</h1>
+      <p class="team-subtitle">Orfanii &times; LowLine</p>
+      <p class="header-tagline">Facem legea pe gazon — și în RageMP</p>
+    </div>
+
+    <!-- Unchiu card + buton HAZ — centru -->
+    <div class="coach-center">
+      <div class="coach-card">
+        <div class="coach-card-top">
+          <div class="coach-badge-top">👮 Șef Suprem</div>
+          <img src="images/unchiu.png" alt="Unchiu" onerror="this.src='images/placeholder.svg'" />
+        </div>
+        <div class="coach-card-body">
+          <div class="coach-name">Unchiu</div>
+          <div class="coach-title">The Special One</div>
+          <p class="coach-desc">Am unit două imperii sub o singură coroană. Pace prin monopol, băieții mei!</p>
+        </div>
+      </div>
+      <button id="music-btn"><span class="icon">⏹</span> Stop Haz</button>
+    </div>
+
+    <!-- Stats — dreapta -->
+    <div class="header-right">
+      <div class="header-stats">
+        <div class="stat">
+          <div class="stat-number">19</div>
+          <div class="stat-label">Jucători</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">I</div>
+          <div class="stat-label">Antrenor</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Caracter</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ PLAYERS ══ -->
+  <div class="section-header">
+    <div class="section-title">Lotul Echipei</div>
+    <div class="section-subtitle">Cei 19 apostoli ai gazonului</div>
+    <div class="section-divider"><span>✦</span></div>
+  </div>
+
+  <section class="players-section">
+    <div class="players-grid">
+
+      <!-- ── PORTARI #01-02 ── -->
+
+      <!-- 01. Jon -->
+      <div class="player-card">
+        <div class="player-number">#01</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/jon.png" alt="Jon" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-portar">Portar</span>
+          <div class="player-name">Jon</div>
+          <div class="player-alias">El Comandante</div>
+          <p class="player-desc">Disciplină la sală, putere în caracter și un BMW care știe drumul spre succes. Asta e rețeta mea, restul e doar zgomot de fondal. 👑💼</p>
+        </div>
+      </div>
+
+      <!-- 02. Nicole -->
+      <div class="player-card">
+        <div class="player-number">#02</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/nicole.png" alt="Nicole" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-portar">Portar</span>
+          <div class="player-name">Nicole</div>
+          <div class="player-alias">The Empress</div>
+          <p class="player-desc">Vorbe mari pentru caractere mari, restu in genuchi la respect. Apa pietre trecele raman 😽</p>
+        </div>
+      </div>
+
+      <!-- ── FUNDAȘI #03-07 ── -->
+
+      <!-- 03. Meno -->
+      <div class="player-card">
+        <div class="player-number">#03</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/meno.png" alt="Meno" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-fundas">Fundaș</span>
+          <div class="player-name">Meno</div>
+          <div class="player-alias">The Lobster</div>
+          <p class="player-desc">Cine râde cu hienele și bârfește cu șerpii nu înțelege tăcerea leului.</p>
+        </div>
+      </div>
+
+      <!-- 04. Spike -->
+      <div class="player-card">
+        <div class="player-number">#04</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/spike.png" alt="Spike" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-fundas">Fundaș</span>
+          <div class="player-name">Spike</div>
+          <div class="player-alias">Oagamecaru</div>
+          <p class="player-desc">Caii trag la căruță, câinii latră pe margine. Eu îmi văd de drum. 💯 Cine are treabă ajunge departe, cine vorbește rămâne pe loc.</p>
+        </div>
+      </div>
+
+      <!-- 05. Leustean -->
+      <div class="player-card">
+        <div class="player-number">#05</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/leustean.png" alt="Leustean" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-fundas">Fundaș</span>
+          <div class="player-name">Leustean</div>
+          <div class="player-alias">The Herb</div>
+          <p class="player-desc">Atunci cand vulturi incep sa zboare, papagali incep sa ciripeasca.</p>
+        </div>
+      </div>
+
+      <!-- 06. Gorila -->
+      <div class="player-card">
+        <div class="player-number">#06</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/gorila.png" alt="Gorila" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-fundas">Fundaș</span>
+          <div class="player-name">Gorila</div>
+          <div class="player-alias">Om de Baza</div>
+          <p class="player-desc">Și un sfat de la mine pentru ăștia care nu duc la băutură: dacă faci urât de la două pahare... BEA UNUL și calmează-ți talentele! 🥂👑 Sunt prea sus sa ma uit în jos!</p>
+        </div>
+      </div>
+
+      <!-- 07. Piratu -->
+      <div class="player-card">
+        <div class="player-number">#07</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/piratu.png" alt="Piratu" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-fundas">Fundaș</span>
+          <div class="player-name">Piratu</div>
+          <div class="player-alias">Puroi</div>
+          <p class="player-desc">Putina lume stie ce port in suflet, restu vad doar ce arat pe afara. Asta e jocul, asta e viata. Eu joc dupa regulile mele, cu Dumnezeu martor🙏</p>
+        </div>
+      </div>
+
+      <!-- ── MIJLOCAȘI #08-14 ── -->
+
+      <!-- 08. Phay -->
+      <div class="player-card">
+        <div class="player-number">#08</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/phay.png" alt="Phay" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">Phay</div>
+          <div class="player-alias">Turkish Dealer</div>
+          <p class="player-desc">Eu nu fac reclamă la nimeni, dar cine mă cunoaște știe că sunt ALTCEVA. Vorba aia: caii nu se uită la maimuțe. God watch over me ❗️🙏</p>
+        </div>
+      </div>
+
+      <!-- 09. Jokhan -->
+      <div class="player-card">
+        <div class="player-number">#09</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/jokhan.png" alt="Jokhan" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">Jokhan</div>
+          <div class="player-alias">Il Giovane</div>
+          <p class="player-desc">Pustanul momentului. 🔥</p>
+        </div>
+      </div>
+
+      <!-- 10. Gyuri -->
+      <div class="player-card">
+        <div class="player-number">#10</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/gyuri.png" alt="Gyuri" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">Gyuri</div>
+          <div class="player-alias">NANalien</div>
+          <p class="player-desc">Eu sunt genu de om care da mana cu toata lumea dar nu se incurca cu oricine, e diferenta intre politete si prietenie. Placere vinovata: cafeaua de dimineata si gandurile mele care nu se opresc niciodata.</p>
+        </div>
+      </div>
+
+      <!-- 11. Sky -->
+      <div class="player-card">
+        <div class="player-number">#11</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/sky.png" alt="Sky" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">Sky</div>
+          <div class="player-alias">Above The Clouds</div>
+          <p class="player-desc">Regele 50 Cent a zis: keep hating. 👑</p>
+        </div>
+      </div>
+
+      <!-- 12. Candela -->
+      <div class="player-card">
+        <div class="player-number">#12</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/candela.png" alt="Candela" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">Candela</div>
+          <div class="player-alias">The Flame</div>
+          <p class="player-desc">Inteligența mă urmărește de ani de zile. Încă nu m-a prins. Subscribe la Zaluca Bancu Zilei pe Youtube.</p>
+        </div>
+      </div>
+
+      <!-- 13b. Sebbyz -->
+      <div class="player-card">
+        <div class="player-number">#13</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/sebyzz.png" alt="Sebbyz" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">Sebbyz</div>
+          <div class="player-alias">The Maestro</div>
+          <p class="player-desc">Dumnezeu mă ține calm, BMW-ul merge lin, stau în mintea voastră ca-n fotoliu, papagalilor, calculat mereu.</p>
+        </div>
+      </div>
+
+      <!-- 14. xes -->
+      <div class="player-card">
+        <div class="player-number">#14</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/xes.png" alt="xes" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-mijlocas">Mijlocaș</span>
+          <div class="player-name">xes</div>
+          <div class="player-alias">The Unknown</div>
+          <p class="player-desc">Seron Owner, degeaba dai cu pixu si faci 16 daca nu e luat de la mine.</p>
+        </div>
+      </div>
+
+      <!-- ── ATACANȚI #15-18 ── -->
+
+
+
+      <!-- 15. Maradona -->
+      <div class="player-card">
+        <div class="player-number">#15</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/maradona.png" alt="Maradona" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-atacant">Atacant</span>
+          <div class="player-name">Maradona</div>
+          <div class="player-alias">The Golden Boy</div>
+          <p class="player-desc">Nu am nevoie de validare de la nimeni, validarea mea vine de acasa si de Sus. Cine ma cunoaste cu adevarat, stie ca vorbele mele cantaresc, nu sunt vant.</p>
+        </div>
+      </div>
+
+      <!-- 16. Jhonut -->
+      <div class="player-card">
+        <div class="player-number">#16</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/jhonut.png" alt="Jhonut" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-atacant">Atacant</span>
+          <div class="player-name">Jhonut</div>
+          <div class="player-alias">The Untouchable</div>
+          <p class="player-desc">Nu mă dau mare că sunt a lu' cutare — ăsta-i un amănunt. Știe lumea al cui sunt 😘👆❗️</p>
+        </div>
+      </div>
+
+      <!-- 17. cristiano666 -->
+      <div class="player-card">
+        <div class="player-number">#17</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/krokodilu.png" alt="cristiano666" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-atacant">Atacant</span>
+          <div class="player-name">cristiano666</div>
+          <div class="player-alias">Il Carismatico</div>
+          <p class="player-desc">Eu nu alerg dupa nimeni, ma alearga pe mine timpul si succesu. Tin doar la familie, la cuvant si la masina mea, restu e zgomot de fundal. God bless❗️🙏 Cine zice ca m-a vazut slab, n-a vazut bine.</p>
+        </div>
+      </div>
+
+      <!-- 18. Palboy -->
+      <div class="player-card">
+        <div class="player-number">#18</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/palboy.png" alt="Palboy" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-atacant">Atacant</span>
+          <div class="player-name">Palboy</div>
+          <div class="player-alias">El Droga</div>
+          <p class="player-desc">Nu alerg după noroc, că norocul mă caută pe mine. Banii îmi știu adresa, iar femeile îmi țin minte numele. Dulce la vorbă, fin la mișcare și greu de uitat. Dacă talentul era infracțiune, aveam condamnare pe viață. 💸 Mă întreabă mulți ce consum. Le zic că n-ar suporta efectele. Unii mă copiază, alții mă invidiază, dar nimeni nu-mi știe rețeta. 😎🔥💰👑</p>
+        </div>
+      </div>
+
+      <!-- 19. Clauzera -->
+      <div class="player-card">
+        <div class="player-number">#19</div>
+        <div class="photo-wrapper">
+          <img class="player-photo" src="images/clauzera.png" alt="Clauzera" onerror="this.src='images/placeholder.svg'" />
+          <div class="photo-overlay"></div>
+        </div>
+        <div class="player-info">
+          <span class="position-badge pos-atacant">Atacant</span>
+          <div class="player-name">Clauzera</div>
+          <div class="player-alias">Titularul României</div>
+          <p class="player-desc">Născut talent, crescut legendă. Titularul României — frică doar de God și de mama. Parbrizul e curat, drumul e lung, dușmanii să ia bilet 😘</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ FIXED FOOTER ══ -->
+  <footer>
+    <span>⚜️</span>
+    <strong>OrfLine FC</strong>
+    <span class="sep">•</span>
+    Orfanii &times; LowLine
+    <span class="sep">•</span>
+    RageMP Roleplay &bull; Departamentul de Poliție
+    <span class="sep">•</span>
+    Sub comanda eternă a lui <strong>&nbsp;Unchiu&nbsp;</strong>, Șeful Suprem 👮
+  </footer>
+
+  
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" width="300" height="380">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1a0d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="jersey" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8a000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0c800;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="380" fill="url(#bg)" rx="12"/>
+  <!-- Head -->
+  <circle cx="150" cy="80" r="45" fill="#c8956c"/>
+  <!-- Body / Jersey -->
+  <path d="M90 145 Q80 130 70 120 L100 108 Q120 125 150 125 Q180 125 200 108 L230 120 Q220 130 210 145 L210 250 L90 250 Z" fill="url(#jersey)"/>
+  <!-- Arms -->
+  <path d="M90 145 L55 210 Q50 225 60 228 L95 175" fill="url(#jersey)"/>
+  <path d="M210 145 L245 210 Q250 225 240 228 L205 175" fill="url(#jersey)"/>
+  <!-- Shorts -->
+  <rect x="90" y="248" width="55" height="70" fill="#1a1a5e" rx="4"/>
+  <rect x="155" y="248" width="55" height="70" fill="#1a1a5e" rx="4"/>
+  <!-- Socks & Legs -->
+  <rect x="95" y="316" width="42" height="50" fill="#ffffff" rx="4"/>
+  <rect x="163" y="316" width="42" height="50" fill="#ffffff" rx="4"/>
+  <!-- Shoes -->
+  <ellipse cx="116" cy="362" rx="28" ry="12" fill="#111"/>
+  <ellipse cx="184" cy="362" rx="28" ry="12" fill="#111"/>
+  <!-- Soccer ball -->
+  <circle cx="150" cy="300" r="18" fill="white" stroke="#333" stroke-width="1.5"/>
+  <path d="M150 284 L143 289 L146 298 L154 298 L157 289 Z" fill="#333"/>
+  <!-- Question mark overlay -->
+  <text x="150" y="95" font-family="Arial Black, sans-serif" font-size="42" font-weight="900" fill="white" text-anchor="middle" opacity="0.3">?</text>
+  <!-- Poza în curând text -->
+  <text x="150" y="345" font-family="Arial, sans-serif" font-size="13" fill="#aaa" text-anchor="middle">Poză în curând</text>
+</svg>
